@@ -1,56 +1,6 @@
-# FRIDAY Backend - Requirements
-# FastAPI, SQLAlchemy, Authentication, WebSocket
-
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
-pydantic==2.5.0
-pydantic-settings==2.1.0
-python-multipart==0.0.6
-
-# Database
 sqlalchemy==2.0.23
-alembic==1.13.1
-psycopg2-binary==2.9.9
-
-# Authentication & Security
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
-pyjwt==2.8.1
-bcrypt==4.1.1
-
-# WebSocket
-websockets==12.0
-python-socketio==5.10.0
-
-# API & HTTP
-requests==2.31.0
-aiohttp==3.9.1
-
-# AI/ML
-openai==1.3.9
-google-cloud-speech==2.24.0
-google-cloud-texttospeech==2.14.2
-
-# Scheduling
-APScheduler==3.10.4
-
-# Utils
+pydantic==2.5.0
+python-multipart==0.0.6
 python-dotenv==1.0.0
-python-dateutil==2.8.2
-click==8.1.7
-colorama==0.4.6
-
-# Logging
-python-json-logger==2.0.7
-
-# Development
-pytest==7.4.3
-pytest-asyncio==0.21.1
-pytest-cov==4.1.0
-black==23.12.0
-flake8==6.1.0
-pylint==3.0.3
-mypy==1.7.1
-
-# Production
-gunicorn==21.2.0
